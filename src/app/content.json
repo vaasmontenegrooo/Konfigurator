@@ -1,0 +1,79 @@
+{
+    "procesory": [
+        "-",
+        "Procesor Intel Core i3-7100, 3.9GHz, 3MB BOX", 
+        "Procesor Intel Core I5-7600K, 3.8GHz, 6MB BOX",
+        "Procesor Intel Core i7-6700K, 4.0GHz, 8MB, BOX",
+        "Procesor Intel Core i7-7700K, 4.2GHz, 8MB, BOX "
+    ],
+
+    "plyty_glowne": [
+        "-",
+        "Płyta główna Gigabyte GA-H110M-S2V",
+        "Płyta główna MSI B250M PRO-VDH",
+        "Płyta główna MSI Z370 GAMING PLUS",
+        "Płyta główna Gigabyte Z370 AORUS Gaming K3"
+    ],
+
+    "karty_graficzne": [
+        "-",
+        "Karta graficzna Gigabyte GeForce GTX 1060 Windforce OC 6GB GDDR5 (192 Bit)",
+        "Karta graficzna Gigabyte GeForce GTX 1050 Ti OC 4GB GDDR5 (128 Bit)",
+        "Karta graficzna MSI GeForce GTX 1070 GAMING X 8GB GDDR5 (256 bit)",
+        "Karta graficzna Gigabyte GeForce GTX 1080 Ti AORUS 11GB GDDR5X (352 bit)"
+    ],
+
+    "zasilacz": [
+        "-",
+        "Zasilacz SilentiumPC Vero L2 600W",
+        "Zasilacz be quiet! SYSTEM POWER 8 600W",
+        "Zasilacz SilentiumPC Supremo L2 V2 550W",
+        "Zasilacz be quiet! Straight Power 11 550W"
+    ],
+
+    "ram": [
+        "-",
+        "Pamięć ADATA XPG DDR4 8GB, 2400Mhz, CL16",
+        "Pamięć GoodRam IRDM DDR4, 8GB, 2400MHz, CL15",
+        "Pamięć HyperX Fury DDR4, 8GB, 2133MHz, CL14",
+        "Pamięć Ballistix Sport LT DDR4, 8GB, 2400MHz, CL16"
+    ],
+
+    "ilosc_ram": [
+        "-",
+        "1x",
+        "2x",
+        "4x",
+        "8x"
+    ],
+
+    "dysk_hdd": [
+        "-",
+        "Dysk Seagate BarraCuda 1TB 6Gb/s SATA",
+        "Dysk Toshiba P300 2TB",
+        "Dysk Western Digital Red 2TB 3.5 SATA 6GB/s 64MB",
+        "Dysk Western Digital Caviar Blue, 3.5'', 1TB, SATA/600, 7200RPM, 64MB"
+    ],
+    "dysk_ssd": [
+        "-",
+        "Dysk SSD ADATA SU800 128GB SATA3",
+        "Dysk SSD Kingston SSDNow UV400, 120GB",
+        "Dysk SSD ADATA SU800 256GB SATA3",
+        "Dysk SSD Crucial MX500 250GB SATA3"
+    ],
+    "obudowa": [
+        "-",
+        "Obudowa SilentiumPC Regnum RG2 Pure Black",
+        "Obudowa SilentiumPC Gladius M35T Pure Black",
+        "Obudowa be quiet! Pure Base 600 Window Orange",
+        "Obudowa SilentiumPC Regnum RG1 Pure Black"
+    ],
+
+    "chlodzenie": [
+        "-",
+        "Chłodzenie CPU SilentiumPC Spartan 3 LT HE1012",
+        "Chłodzenie CPU be quiet! Pure Rock",
+        "Chłodzenie CPU SilentiumPC Grandis 2",
+        "Chłodzenie CPU be quiet! Dark Rock 3"
+    ]
+}

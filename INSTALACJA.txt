@@ -1,0 +1,15 @@
+# Konfigurator
+
+## Wymagania
+
+* Node min. 6.9.x
+* npm min. 3.x.x
+
+## Instalacja
+
+1. npm install -g @angular/cli
+2. cd konfigurator-master/
+3. npm install
+4. ng serve
+
+### Strona dostêpna pod adresem localhost:4200

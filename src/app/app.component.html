@@ -1,0 +1,87 @@
+
+
+<div class="container">
+  <div class="row">
+    <div class="jumbotron">
+        <h1 class="display-4">Złóż swój komputer!</h1>
+        <p class="lead">Ten prosty konfigurator sprzętu komputerowego pozwoli Ci samodzielnie dobrać podzespoły do wymarzonego komputera.</p>
+        <hr class="my-4">
+        <p>Gotowy zestaw komputerowy (w postaci listy podzespołów) możesz zapisać w postaci pliku tekstowego.</p>
+      </div>
+  </div>
+  <div class="row">
+    <div class="col-xs-12">
+      <form #configForm="ngForm" (ngSubmit)="exportToFile(configForm)">
+        <div class="form-group">
+          <label for="procesor">Procesor</label>
+          <select class="selectpicker" data-style="btn-info" id="procesor" name="procesor"  ngModel> 
+            <option *ngFor="let component of components[0].procesory" value="{{component}}">{{component}}</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="plyta_glowna">Płyta główna</label>
+          <select class="selectpicker" data-style="btn-info" id="plyta_glowna" ngModel name="plyta_glowna">
+            <option *ngFor="let component of components[1].plyty_glowne" value="{{component}}">{{component}}</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="karta_graficzna">Karta graficzna</label>
+          <select class="selectpicker" data-style="btn-info" id="karta_graficzna" ngModel name="karty_graficzne">
+            <option *ngFor="let component of components[2].karty_graficzne" value="{{component}}">{{component}}</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="zasilacz">Zasilacz</label>
+          <select class="selectpicker" data-style="btn-info" id="zasilacz" ngModel name="zasilacz">
+            <option *ngFor="let component of components[3].zasilacz" value="{{component}}">{{component}}</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="ram">Pamięć RAM</label>
+          <select class="selectpicker" data-style="btn-info" id="ram" ngModel name="ram">
+            <option *ngFor="let component of components[4].ram" value="{{component}}">{{component}}</option>
+          </select>
+          <label for="ilosc_ram">Ilość pamięci RAM</label>
+          <select class="selectpicker" data-width="fit" data-style="btn-info" id="ilosc_ram" ngModel name="ilosc_ram">
+            <option *ngFor="let component of components[5].ilosc_ram" value="{{component}}">{{component}}</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="dysk_hdd">Dysk_HDD</label>
+          <select class="selectpicker"  data-style="btn-info" id="dysk_hdd" ngModel name="dysk_hdd">
+            <option *ngFor="let component of components[6].dysk_hdd" value="{{component}}">{{component}}</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="dysk_ssd">Dysk_SSD</label>
+          <select class="selectpicker" data-style="btn-info" id="dysk_ssd" ngModel name="dysk_ssd">
+            <option *ngFor="let component of components[7].dysk_ssd" value="{{component}}">{{component}}</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="obuodowa">Obudowa</label>
+          <select class="selectpicker" data-style="btn-info" id="obudowa" ngModel name="obudowa">
+            <option *ngFor="let component of components[8].obudowa" value="{{component}}">{{component}}</option>
+          </select>
+        </div>
+
+        <div class="form-group">
+          <label for="chlodzenie">Chłodzenie procesora</label>
+          <select class="selectpicker" data-style="btn-info" id="chlodzenie" ngModel name="chlodzenie">
+            <option *ngFor="let component of components[9].chlodzenie" value="{{component}}">{{component}}</option>
+          </select>
+        </div>
+
+        <button type="submit" class="btn btn-success">Zapisz konfigurację</button>
+      </form>
+    </div>
+  </div>
+</div>
+
